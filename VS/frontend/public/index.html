@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mijn SPA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <div id="navbar" class="flex justify-center items-center px-12 py-2">
+    <!-- Deze navbar is voorlopig leeg en kan later worden aangepast -->
+  </div>
+
+  <!-- Hero Section -->
+<section id="home" class="h-[100vh] flex flex-col items-center justify-center bg-gray-100 text-gray-900 px-4">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">Welkom bij M2lease</h2>
+    <p class="text-lg md:text-xl mb-6">Jouw partner in leaseoplossingen</p>
+    <div class="flex justify-center gap-4 mt-4">
+      <button class="bg-gray-800 text-white px-6 py-3 rounded-full hover:bg-gray-900 transition">Onze Services</button>
+      <button class="bg-rose-900 text-white px-6 py-3 rounded-full hover:bg-rose-800 transition">Neem Contact Op</button>
+    </div>
+  </div>
+
+  <!-- Afbeelding onder de tekst -->
+  <div class="w-full max-w-5xl">
+    <img src="/frontend/src/image2.jpeg" alt="Hero Image" class="w-full object-contain rounded-lg shadow-lg" />
+  </div>
+</section>
+
+
+<!-- Titel vóór Over Ons -->
+<section class="h-[90vh] bg-[#212121] text-white flex flex-col items-center justify-center px-4">
+  <h2 class="text-5xl font-bold mb-6">Leer meer over onze passie voor mobiliteit</h2>
+  <p class="text-xl text-gray-300">
+    Ontdek hoe M2lease bedrijven helpt hun wagenpark moeiteloos te beheren.
+  </p>
+</section>
+
+
+
+  <!-- Over Ons Section -->
+<section id="about" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center gap-12">
+    
+    <!-- Afbeelding aan de linkerkant -->
+    <div class="md:w-1/2 overflow-hidden rounded-3xl shadow-xl">
+      <img src="/frontend/src/marcelleke.jpeg" alt="Marcelleke" class="w-full h-full object-cover" />
+    </div>
+    
+    <!-- Tekst aan de rechterkant -->
+    <div class="md:w-1/2 text-center md:text-left">
+      <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+        Ik ben Marcel Moerkerken, al ruim 25 jaar actief in de Automotive
+      </h3>
+      <p class="text-gray-700 text-lg md:text-xl leading-relaxed mb-6">
+        Met M2leaseservice wil ik bedrijven helpen met alles omtrent het wagenpark, omdat dit vaak een arbeidsintensief proces is binnen een bedrijf.
+      </p>
+      <ul class="text-gray-600 text-base md:text-lg space-y-4 list-disc list-inside">
+        <li>Bemiddelen bij leasecontracten, zowel operational als financial lease</li>
+        <li>1-op-1 hulp voor berijders bij hun keuze</li>
+        <li>Opstellen van autoregelingen</li>
+        <li>Beheer van uw complete wagenpark</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Volledige sectie Onze Services -->
+<section class="h-[90vh] bg-[#212121] text-white flex flex-col items-center justify-center px-4">
+  <div class="max-w-4xl text-center">
+    <h2 class="text-5xl font-bold mb-6">Onze Services</h2>
+    <p class="text-xl text-gray-300">
+      Ontdek hoe wij jouw wagenpark zorgeloos kunnen beheren.
+    </p>
+  </div>
+</section>
+
+
+
+  <!-- Services Section -->
+<section id="services" class="flex flex-col space-y-64 bg-gray-100 text-gray-900 px-6">
+
+  <!-- Equipment Lease -->
+  <div class="flex flex-col md:flex-row items-center max-w-7xl mx-auto min-h-[90vh] gap-24">
+    <div class="md:w-1/2">
+      <img src="/frontend/src/equipment.jpeg" alt="Equipment Lease" class="rounded-3xl shadow-2xl w-full h-full object-cover">
+    </div>
+    <div class="md:w-1/2 text-center md:text-left">
+      <h2 class="text-5xl font-bold mb-10">Equipment Lease</h2>
+      <p class="text-2xl leading-relaxed">
+        Dit sluit aan bij de omschrijving van de financial lease vorm.
+Alleen betreft het hier geen financiering voor een auto maar voor bijv. een vorkheftruck, een hoogwerker en vele andere bedrijfsmiddelen.
+Ook hiervoor betaal je maandelijks een termijn aan aflossing en rente en na de laatste termijn en indien afgesproken slotsom wordt de onderneming volledig eigenaar.
+      </p>
+    </div>
+  </div>
+
+  <!-- Financial Lease -->
+  <div class="flex flex-col md:flex-row-reverse items-center max-w-7xl mx-auto min-h-[90vh] gap-24">
+    <div class="md:w-1/2">
+      <img src="/frontend/src/financial.jpeg" alt="Financial Lease" class="rounded-3xl shadow-2xl w-full h-full object-cover">
+    </div>
+    <div class="md:w-1/2 text-center md:text-left">
+      <h2 class="text-5xl font-bold mb-10">Financial Lease</h2>
+      <p class="text-2xl leading-relaxed">
+        Bij financial lease wordt de onderneming direct economisch eigenaar van de auto.
+Naast de maandelijkse termijn  ( rente en aflossing ) aan de leasemaatschappij wordt door de onderneming ook de wegenbelasting, verzekering  en onderhoud betaald.
+De auto wordt juridisch eigendom na de laatste termijn en betaling van de eventueel afgesproken slotsom.
+      </p>
+    </div>
+  </div>
+
+  <!-- Operationele Lease -->
+  <div class="flex flex-col md:flex-row items-center max-w-7xl mx-auto min-h-[90vh] gap-24">
+    <div class="md:w-1/2">
+      <img src="/frontend/src/operational.jpeg" alt="Operationele Lease" class="rounded-3xl shadow-2xl w-full h-full object-cover">
+    </div>
+    <div class="md:w-1/2 text-center md:text-left">
+      <h2 class="text-5xl font-bold mb-10">Full Operationele Lease</h2>
+      <p class="text-2xl leading-relaxed">
+        Bij deze vorm van leasing weet je precies waar de onderneming aan toe is.
+De leasemaatschappij belast een vast bedrag per maand en daar zit de financiering, het onderhoud inclusief de banden en reparaties, de verzekering en het beheer bij inbegrepen. De onderneming wordt geen eigenaar van de auto, het risico blijft bij de leasemaatschappij.
+Als je hiervoor kiest blijft de liquiditeit van de onderneming onaangetast.
+Er is keuze uit diverse looptijden en kilometrages om het contract af te sluiten.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- Extra Call to Action -->
+<section id="cta" class="bg-gray-50 py-32 px-6 flex items-center justify-center">
+  <div class="max-w-4xl text-center">
+    <p class="text-3xl md:text-3xl font-bold text-gray-800 leading-relaxed">
+      Spelen er zaken of zijn er dingen die ondersteuning nodig hebben omtrent het wagenpark,<br>
+      dan sta ik uiteraard open om een kennismakingsgesprek aan te gaan.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold mb-6 text-center">Contact</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Naam" class="w-full border px-4 py-2 rounded" />
+        <input type="email" placeholder="Email" class="w-full border px-4 py-2 rounded" />
+        <textarea placeholder="Bericht" rows="4" class="w-full border px-4 py-2 rounded"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Verstuur</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 MijnSite. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <script>
+    // Detecteer de muispositie en toon de navbar als de muis bovenaan komt
+    let navbar = document.getElementById('navbar');
+    let lastScrollTop = 0;
+
+    window.addEventListener('mousemove', (e) => {
+      if (e.clientY < 50) { // Als de muis dicht bij de bovenkant van het scherm is
+        navbar.style.top = '0px'; // Toon de navbar
+      } else {
+        navbar.style.top = '-80px'; // Verberg de navbar als de muis verder naar beneden is
+      }
+    });
+  </script>
+
+</body>
+</html>
