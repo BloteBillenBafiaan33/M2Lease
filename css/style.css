@@ -22,5 +22,6 @@ html {
   /* Zorg ervoor dat de navbar zichtbaar wordt als de muis bovenaan de pagina komt */
   body {
     height: 200vh; /* Voeg wat extra hoogte toe voor scrollen */
+    font-family: 'DM Sans', sans-serif;
   }
   
